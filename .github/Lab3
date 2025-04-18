@@ -1,0 +1,231 @@
+Collecting opensignalsreader
+  Downloading opensignalsreader-0.2.2-py3-none-any.whl.metadata (7.7 kB)
+Requirement already satisfied: numpy in /usr/local/lib/python3.11/dist-packages (from opensignalsreader) (2.0.2)
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.11/dist-packages (from opensignalsreader) (3.10.0)
+Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (4.56.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (1.4.8)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (24.2)
+Requirement already satisfied: pillow>=8 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (11.1.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (3.2.1)
+Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.11/dist-packages (from matplotlib->opensignalsreader) (2.8.2)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.11/dist-packages (from python-dateutil>=2.7->matplotlib->opensignalsreader) (1.17.0)
+Downloading opensignalsreader-0.2.2-py3-none-any.whl (55 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/55.9 kB ? eta -:--:--
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.9/55.9 kB 2.3 MB/s eta 0:00:00
+Installing collected packages: opensignalsreader
+Successfully installed opensignalsreader-0.2.2
+
+!pip install biosignalsnotebooks
+     
+Collecting biosignalsnotebooks
+  Downloading biosignalsnotebooks-0.6.14-py3-none-any.whl.metadata (7.0 kB)
+Collecting numpy==1.22.2 (from biosignalsnotebooks)
+  Downloading numpy-1.22.2.zip (11.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 46.4 MB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.11/dist-packages (from biosignalsnotebooks) (3.10.0)
+INFO: pip is looking at multiple versions of biosignalsnotebooks to determine which version is compatible with other requirements. This could take a while.
+Collecting biosignalsnotebooks
+  Downloading biosignalsnotebooks-0.6.13-py3-none-any.whl.metadata (7.0 kB)
+  Downloading biosignalsnotebooks-0.6.12-py3-none-any.whl.metadata (7.0 kB)
+Collecting numpy==1.25.2 (from biosignalsnotebooks)
+  Downloading numpy-1.25.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.6 kB)
+Collecting scipy==1.11.2 (from biosignalsnotebooks)
+  Downloading scipy-1.11.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.1/59.1 kB 3.3 MB/s eta 0:00:00
+Requirement already satisfied: h5py in /usr/local/lib/python3.11/dist-packages (from biosignalsnotebooks) (3.12.1)
+Collecting wget (from biosignalsnotebooks)
+  Downloading wget-3.2.zip (10 kB)
+  Preparing metadata (setup.py) ... done
+Collecting datetime (from biosignalsnotebooks)
+  Downloading DateTime-5.5-py3-none-any.whl.metadata (33 kB)
+Collecting bokeh==2.4.3 (from biosignalsnotebooks)
+  Downloading bokeh-2.4.3-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: IPython in /usr/local/lib/python3.11/dist-packages (from biosignalsnotebooks) (7.34.0)
+Requirement already satisfied: pandas in /usr/local/lib/python3.11/dist-packages (from biosignalsnotebooks) (2.2.2)
+Requirement already satisfied: nbformat in /usr/local/lib/python3.11/dist-packages (from biosignalsnotebooks) (5.10.4)
+Requirement already satisfied: requests in /usr/local/lib/python3.11/dist-packages (from biosignalsnotebooks) (2.32.3)
+Collecting libmagic (from biosignalsnotebooks)
+  Downloading libmagic-1.0.tar.gz (3.7 kB)
+  Preparing metadata (setup.py) ... done
+Collecting python-magic (from biosignalsnotebooks)
+  Downloading python_magic-0.4.27-py2.py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: Jinja2>=2.9 in /usr/local/lib/python3.11/dist-packages (from bokeh==2.4.3->biosignalsnotebooks) (3.1.6)
+Requirement already satisfied: packaging>=16.8 in /usr/local/lib/python3.11/dist-packages (from bokeh==2.4.3->biosignalsnotebooks) (24.2)
+Requirement already satisfied: pillow>=7.1.0 in /usr/local/lib/python3.11/dist-packages (from bokeh==2.4.3->biosignalsnotebooks) (11.1.0)
+Requirement already satisfied: PyYAML>=3.10 in /usr/local/lib/python3.11/dist-packages (from bokeh==2.4.3->biosignalsnotebooks) (6.0.2)
+Requirement already satisfied: tornado>=5.1 in /usr/local/lib/python3.11/dist-packages (from bokeh==2.4.3->biosignalsnotebooks) (6.4.2)
+Requirement already satisfied: typing-extensions>=3.10.0 in /usr/local/lib/python3.11/dist-packages (from bokeh==2.4.3->biosignalsnotebooks) (4.12.2)
+Collecting zope.interface (from datetime->biosignalsnotebooks)
+  Downloading zope.interface-7.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.4/44.4 kB 2.4 MB/s eta 0:00:00
+Requirement already satisfied: pytz in /usr/local/lib/python3.11/dist-packages (from datetime->biosignalsnotebooks) (2025.1)
+Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (75.1.0)
+Collecting jedi>=0.16 (from IPython->biosignalsnotebooks)
+  Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+Requirement already satisfied: decorator in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (4.4.2)
+Requirement already satisfied: pickleshare in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (0.7.5)
+Requirement already satisfied: traitlets>=4.2 in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (5.7.1)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (3.0.50)
+Requirement already satisfied: pygments in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (2.18.0)
+Requirement already satisfied: backcall in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (0.2.0)
+Requirement already satisfied: matplotlib-inline in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (0.1.7)
+Requirement already satisfied: pexpect>4.3 in /usr/local/lib/python3.11/dist-packages (from IPython->biosignalsnotebooks) (4.9.0)
+Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->biosignalsnotebooks) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.11/dist-packages (from matplotlib->biosignalsnotebooks) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.11/dist-packages (from matplotlib->biosignalsnotebooks) (4.56.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->biosignalsnotebooks) (1.4.8)
+Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->biosignalsnotebooks) (3.2.1)
+Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.11/dist-packages (from matplotlib->biosignalsnotebooks) (2.8.2)
+Requirement already satisfied: fastjsonschema>=2.15 in /usr/local/lib/python3.11/dist-packages (from nbformat->biosignalsnotebooks) (2.21.1)
+Requirement already satisfied: jsonschema>=2.6 in /usr/local/lib/python3.11/dist-packages (from nbformat->biosignalsnotebooks) (4.23.0)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /usr/local/lib/python3.11/dist-packages (from nbformat->biosignalsnotebooks) (5.7.2)
+Requirement already satisfied: tzdata>=2022.7 in /usr/local/lib/python3.11/dist-packages (from pandas->biosignalsnotebooks) (2025.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/dist-packages (from requests->biosignalsnotebooks) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/dist-packages (from requests->biosignalsnotebooks) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests->biosignalsnotebooks) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/dist-packages (from requests->biosignalsnotebooks) (2025.1.31)
+Requirement already satisfied: parso<0.9.0,>=0.8.4 in /usr/local/lib/python3.11/dist-packages (from jedi>=0.16->IPython->biosignalsnotebooks) (0.8.4)
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.11/dist-packages (from Jinja2>=2.9->bokeh==2.4.3->biosignalsnotebooks) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in /usr/local/lib/python3.11/dist-packages (from jsonschema>=2.6->nbformat->biosignalsnotebooks) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /usr/local/lib/python3.11/dist-packages (from jsonschema>=2.6->nbformat->biosignalsnotebooks) (2024.10.1)
+Requirement already satisfied: referencing>=0.28.4 in /usr/local/lib/python3.11/dist-packages (from jsonschema>=2.6->nbformat->biosignalsnotebooks) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in /usr/local/lib/python3.11/dist-packages (from jsonschema>=2.6->nbformat->biosignalsnotebooks) (0.23.1)
+Requirement already satisfied: platformdirs>=2.5 in /usr/local/lib/python3.11/dist-packages (from jupyter-core!=5.0.*,>=4.12->nbformat->biosignalsnotebooks) (4.3.6)
+Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.11/dist-packages (from pexpect>4.3->IPython->biosignalsnotebooks) (0.7.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.11/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->IPython->biosignalsnotebooks) (0.2.13)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.11/dist-packages (from python-dateutil>=2.7->matplotlib->biosignalsnotebooks) (1.17.0)
+Downloading biosignalsnotebooks-0.6.12-py3-none-any.whl (39.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.1/39.1 MB 17.2 MB/s eta 0:00:00
+Downloading bokeh-2.4.3-py3-none-any.whl (18.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.5/18.5 MB 59.6 MB/s eta 0:00:00
+Downloading numpy-1.25.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 50.1 MB/s eta 0:00:00
+Downloading scipy-1.11.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.3/36.3 MB 12.1 MB/s eta 0:00:00
+Downloading DateTime-5.5-py3-none-any.whl (52 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.6/52.6 kB 2.9 MB/s eta 0:00:00
+Downloading python_magic-0.4.27-py2.py3-none-any.whl (13 kB)
+Downloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 42.6 MB/s eta 0:00:00
+Downloading zope.interface-7.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (259 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 259.8/259.8 kB 14.5 MB/s eta 0:00:00
+Building wheels for collected packages: libmagic, wget
+  Building wheel for libmagic (setup.py) ... done
+  Created wheel for libmagic: filename=libmagic-1.0-py3-none-any.whl size=4269 sha256=3a31a932670b6ca1992ab0cc5accc03c97d2ff70f94ed28c90767610768cc953
+  Stored in directory: /root/.cache/pip/wheels/3e/35/13/53c696ff5f3523479505ec5ed4156198671fb598fe678178bf
+  Building wheel for wget (setup.py) ... done
+  Created wheel for wget: filename=wget-3.2-py3-none-any.whl size=9656 sha256=02e054ec6715be50d7b8299b3cd4fb196abaa8dd9e1fe00fdeba9f8b7d80da2b
+  Stored in directory: /root/.cache/pip/wheels/40/b3/0f/a40dbd1c6861731779f62cc4babcb234387e11d697df70ee97
+Successfully built libmagic wget
+Installing collected packages: wget, libmagic, zope.interface, python-magic, numpy, jedi, scipy, datetime, bokeh, biosignalsnotebooks
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.0.2
+    Uninstalling numpy-2.0.2:
+      Successfully uninstalled numpy-2.0.2
+  Attempting uninstall: scipy
+    Found existing installation: scipy 1.14.1
+    Uninstalling scipy-1.14.1:
+      Successfully uninstalled scipy-1.14.1
+  Attempting uninstall: bokeh
+    Found existing installation: bokeh 3.6.3
+    Uninstalling bokeh-3.6.3:
+      Successfully uninstalled bokeh-3.6.3
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+holoviews 1.20.2 requires bokeh>=3.1, but you have bokeh 2.4.3 which is incompatible.
+panel 1.6.1 requires bokeh<3.7.0,>=3.5.0, but you have bokeh 2.4.3 which is incompatible.
+tensorflow 2.18.0 requires numpy<2.1.0,>=1.26.0, but you have numpy 1.25.2 which is incompatible.
+scikit-image 0.25.2 requires scipy>=1.11.4, but you have scipy 1.11.2 which is incompatible.
+blosc2 3.2.0 requires numpy>=1.26, but you have numpy 1.25.2 which is incompatible.
+Successfully installed biosignalsnotebooks-0.6.12 bokeh-2.4.3 datetime-5.5 jedi-0.19.2 libmagic-1.0 numpy-1.25.2 python-magic-0.4.27 scipy-1.11.2 wget-3.2 zope.interface-7.2
+
+# Package used for loading data from the input text file
+from numpy import loadtxt
+
+# biosignalsnotebooks python package
+import biosignalsnotebooks as bsnb
+data = loadtxt("SampleEOG_Horizontal_Eye_Movement.txt")
+     
+
+# Package used for loading data from the input text file
+from numpy import loadtxt
+
+# biosignalsnotebooks python package
+import biosignalsnotebooks as bsnb
+data = loadtxt("opensignals_0007800f3067_2025-03-20_19-44-41.txt")
+     
+
+print(data)
+     
+[[0.0000e+00 0.0000e+00 3.2855e+04]
+ [1.0000e+00 0.0000e+00 3.2848e+04]
+ [2.0000e+00 0.0000e+00 3.2844e+04]
+ ...
+ [3.7047e+04 0.0000e+00 3.2830e+04]
+ [3.7048e+04 0.0000e+00 3.2850e+04]
+ [3.7049e+04 0.0000e+00 3.2806e+04]]
+
+sampling_rate = 1000
+     
+
+time = bsnb.generate_time(data, sampling_rate)
+     
+
+print (data)
+     
+[[0.0000e+00 0.0000e+00 3.2855e+04]
+ [1.0000e+00 0.0000e+00 3.2848e+04]
+ [2.0000e+00 0.0000e+00 3.2844e+04]
+ ...
+ [3.7047e+04 0.0000e+00 3.2830e+04]
+ [3.7048e+04 0.0000e+00 3.2850e+04]
+ [3.7049e+04 0.0000e+00 3.2806e+04]]
+
+channel_column = 2
+     
+
+bsnb.plot(time, data[:, channel_column])
+     
+
+# Base packages used in OpenSignals Tools Notebooks for plotting data
+from bokeh.plotting import figure, show
+from bokeh.io import output_notebook
+from bokeh.layouts import gridplot
+from bokeh.models.tools import *
+output_notebook(hide_banner=True)
+
+# Package for ensuring operations in arrays
+from numpy import average, linspace, random
+
+# Own opensignalstools package needed here for applying the default OpenSignals styles and for loading data from an acquisition
+# file.
+import biosignalsnotebooks as bsnb
+     
+
+# Load of data from a remote source
+data, header = bsnb.load("/content/opensignals_0007800f3067_2025-03-20_19-44-41.h5", get_header=True)
+     
+
+print ("\033[1mHeader:\n\033[0m" + str(header) + "\n\033[1mData:\033[0m\n" + str(data))
+     
+Header:
+{'channels': array([1], dtype=int32), 'comments': '', 'date': '2025-3-20', 'device': 'biosignalspluxsolo', 'device connection': 'BTH00:07:80:0F:30:67', 'device name': '00:07:80:0F:30:67', 'digital IO': array([0, 1], dtype=int32), 'firmware version': 257, 'resolution': array([16], dtype=int32), 'sampling rate': 1000, 'sync interval': 2, 'time': '19:44:47.308', 'sensor': ['RAW'], 'column labels': {1: 'channel_1'}}
+Data:
+{'CH1': array([32855, 32848, 32844, ..., 32830, 32850, 32806], dtype=uint32)}
+
+signal = data["CH1"]
+time = bsnb.generate_time(signal, header["sampling rate"])
+     
+
+# Noise samples and change of the baseline level
+baseline = average(signal)
+baseline_shift = 0.50 * baseline
+data_noise = signal + random.normal(0, 1000, len(signal)) + baseline_shift
+     
+
+bsnb.plot([time, time], [signal, data_noise], legend_label=["Original Data", "Noisy Data"], y_axis_label=["Raw Data", "Raw Data"], x_axis_label="Time (s)")
+     
